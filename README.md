@@ -41,4 +41,28 @@
 }]
 
 
+# create a user
+# method post
+### url - http://host:port/api/user
+## request body:{
+	        "firstname": "simon",
+		"lastname": "dsouza",
+		"email": "simon@gmail.com",
+		"address": "Merode",
+		"age":25
+	}
+
+# status: 200 ok
+## response body: {
+	        "firstname": "simon",
+		"lastname": "dsouza",
+		"email": "simon@gmail.com",
+		"address": "Merode",
+		"age": 25
+}
+
+
+
+
+
 
