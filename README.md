@@ -53,13 +53,7 @@
 	}
 
 # status: 200 ok
-## response body: {
-	        "firstname": "simon",
-		"lastname": "dsouza",
-		"email": "simon@gmail.com",
-		"address": "Merode",
-		"age": 25
-}
+
 
 
 
