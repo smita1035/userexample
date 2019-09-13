@@ -41,7 +41,7 @@
 }]
 
 
-# create a user
+# create an user
 # method post
 ### url - http://host:port/api/user
 ## request body:{
@@ -53,6 +53,21 @@
 	}
 
 # status: 200 ok
+
+# update an user
+# method put
+### url - http://host:port/api/user/{userId}
+## request body:{
+                  "email":"sd@gmail.com"
+		  }
+## response status: 200 ok
+
+# delete an user
+# method delete
+### url - http://host:port/api/user/{userId}
+## response status: 200 ok
+		  
+		  
 
 
 
